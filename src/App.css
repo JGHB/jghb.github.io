@@ -1,0 +1,25 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px; margin-top: 70px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 150px; background:black; font-size: 100px; margin-left: 10px; margin-right: 50px;}
+.corner-image {margin-bottom: 40px; margin-top: 20px;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+.sidebar-item {font-size: 20px;}
+.project-item {
+  text-align: center;
+  font-size: 3vw;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  margin-bottom: 17px;
+  width: 100%
+}
+
+.project-item:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#main {margin-left: 140px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
