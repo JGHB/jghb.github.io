@@ -1,10 +1,13 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; overflow: hidden;}
 .w3-row-padding img {margin-bottom: 12px; margin-top: 70px}
 /* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 150px; background:black; font-size: 100px; margin-left: 10px; margin-right: 50px;}
+.w3-sidebar {width: 150px; background:black; font-size: 100px; margin-left: 10px;}
 .corner-image {margin-bottom: 40px; margin-top: 20px;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-.sidebar-item {font-size: 20px;}
+.sidebar-item {font-size: 14px;}
+.project-sidebar-item {
+  font-size: 15px;
+}
 .project-item {
   text-align: center;
   font-size: 3vw;
@@ -12,14 +15,73 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   border-width: 3px;
   border-style: solid;
   margin-bottom: 17px;
-  width: 100%
+  width: 100%;
+  padding-left: 20px;
+  padding-right:20px;
 }
-
 .project-item:hover{
   background-color: white;
   color: black;
   cursor: pointer;
 }
-#main {margin-left: 140px}
+
+.skill-bar {
+  margin-bottom: 25px;
+  height: 28px;
+}
+
+.skill-bar-inner {
+  padding-left: 10px;
+  padding-top: 4px;
+  height: 28px;
+  font-weight: 900;
+}
+
+body::-webkit-scrollbar {
+  background-color: black;
+  width: 12px;  
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+  max-height: 20px;
+}
+
+.w3-sidebar::-webkit-scrollbar {
+  background-color: black;
+  width: 12px;  
+}
+
+.w3-sidebar::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+  max-height: 20px;
+}
+
+#myNavbar {
+  margin: auto;
+  width: 100%;
+}
+
+#me {
+  font-size: 64px;
+}
+
+#main {margin-left: 140px; scrollbar-color: black black;}
 /* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 670px) {#main {margin-left: 0;}
+#me {
+  font-size: 50px;
+} 
+.w3-sidebar{
+  display:none
+}}
+@media only screen and (min-width: 670px) {
+  #myNavbar {
+    display:none
+  }
+}
+
+
+
