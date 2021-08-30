@@ -132,7 +132,7 @@ function HomePageComponent() {
             }
             {width >= 670 &&
                 <FadeIn delay="400" transitionDuration="1000">
-                    <HomePageBodyComponent />3
+                    <HomePageBodyComponent />
                 </FadeIn>
             }
         </div>
