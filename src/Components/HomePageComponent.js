@@ -10,7 +10,7 @@ function HomePageComponent() {
 
     return (
         <div>
-            <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+            <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black">
                 <FadeIn delay="300" transitionDuration="200">
                     <img src="logo.svg" style={{ width: "100%" }} class="corner-image" />
                 </FadeIn>
@@ -113,10 +113,10 @@ function HomePageComponent() {
                             PROJECTS
                         </a>
                     </ScrollLink>
-                    <a href="" class="w3-bar-item w3-button" style={{ width: "25% !important" }}>GITHUB</a>
+                    <a href="https://www.github.com/JGHB" class="w3-bar-item w3-button" style={{ width: "25% !important" }}>GITHUB</a>
                     <ScrollLink
                         activeClass="active"
-                        to="contact"
+                        to=""
                         spy={true}
                         smooth={false}
                         duration={1500}

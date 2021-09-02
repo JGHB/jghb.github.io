@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 import HomePageComponent from "../Components/HomePageComponent";
 import PortfolioProjectComponent from "../Components/PortfolioProjectComponent";
 import ScrollToTop from "../Components/ScrollToTop";
+import WeatherAppProjectComponent from "../Components/WeatherAppProjectComponent";
+import MeditativeTrackerProjectComponent from "../Components/MeditativeTrackerProjectComponent";
+import CourseManagerProjectComponent from "../Components/CourseManagerProjectComponent";
 
 function PersonalSiteContainer() {
 
@@ -12,14 +15,23 @@ function PersonalSiteContainer() {
     return (
         <div class="w3-black">
             <Router>
-                <ScrollToTop/>
+                <ScrollToTop />
                 <Switch>
-                <Route path="/" exact={true} render={() =>
-                    <HomePageComponent />
-                } />
-                <Route path="/portfolio-project" exact={true} render={() =>
-                    <PortfolioProjectComponent />
-                } />
+                    <Route path="/" exact={true} render={() =>
+                        <HomePageComponent />
+                    } />
+                    <Route path="/portfolio-project" exact={true} render={() =>
+                        <PortfolioProjectComponent />
+                    } />
+                    <Route path="/weather-project" exact={true} render={() =>
+                        <WeatherAppProjectComponent />
+                    } />
+                    <Route path="/meditation-project" exact={true} render={() =>
+                        <MeditativeTrackerProjectComponent/>
+                    } />
+                    <Route path="/course-manager-project" exact={true} render={() =>
+                        <CourseManagerProjectComponent />
+                    } />
                 </Switch>
             </Router>
 

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-function PortfolioProjectComponent() {
+function CourseManagerProjectComponent() {
 
     return (
         <div class="w3-black">
@@ -10,6 +10,11 @@ function PortfolioProjectComponent() {
                 <Link to="/" style={{ textDecoration: 'none' }}>
                     <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
                         <p>HOME</p>
+                    </a>
+                </Link>
+                <Link to="/portfolio-project" style={{ textDecoration: 'none' }}>
+                    <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
+                        <p>PORTFOLIO WEBSITE</p>
                     </a>
                 </Link>
                 <Link to="/weather-project" style={{ textDecoration: 'none' }}>
@@ -22,11 +27,6 @@ function PortfolioProjectComponent() {
                         <p>MEDITATIVE TRACKER</p>
                     </a>
                 </Link>
-                <Link to="/course-manager-project" style={{ textDecoration: 'none' }}>
-                    <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
-                        <p>COURSE MANAGER</p>
-                    </a>
-                </Link>
             </nav>
             <div class="w3-top w3-center" id="myNavbar">
                 <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
@@ -37,7 +37,7 @@ function PortfolioProjectComponent() {
             </div>
             <div className="w3-padding-large" id="main">
                 <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-                    <h1 class="w3-center" id="me"> Portfolio Website</h1>
+                    <h1 class="w3-center" id="me"> Course Management</h1>
                     <img src="portrait.jpg" alt="boy" class="w3-image" width="992" height="1108" />
                 </header>
                 <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
@@ -58,4 +58,4 @@ function PortfolioProjectComponent() {
     )
 }
 
-export default PortfolioProjectComponent
+export default CourseManagerProjectComponent

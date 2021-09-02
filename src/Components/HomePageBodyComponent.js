@@ -13,14 +13,15 @@ function HomePageBodyComponent() {
             <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
                 <h2 class="w3-text-light-grey">About Me</h2>
                 <hr style={{ width: "200px" }} class="w3-opacity" />
-                <p class="w3-text-light-grey"> Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <p class="w3-text-light-grey"> Hi, I'm James. I'm a student at Northeastern University studying Computer Science and Economics,
+                expecting to graduate in the fall of 2022. I am currently seeking Full Stack and Front End development co-op opportunities for the winter and spring of 2022.
+                I am also available for summer internships in 2022. I am looking for job opportunities that will allow me to pursue my passion for full stack development,
+                work with other developers , and build my skill set. I am currently located in Boston, MA, but I am open to the idea of working elsewhere!
                 </p>
                 <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-                <p class="w3-wide w3-text-light-grey">Full Stack Javascript</p>
+                <p class="w3-wide w3-text-light-grey">Full Stack JavaScript</p>
                 <div class="w3-white skill-bar">
-                    <div class="w3-yellow skill-bar-inner" style={{ width: "60%" }}>Vanilla Javascript</div>
+                    <div class="w3-yellow skill-bar-inner" style={{ width: "60%" }}>Vanilla JavaScript</div>
                 </div>
                 <div class="w3-white skill-bar">
                     <div class="w3-blue skill-bar-inner" style={{ width: "75%" }}>React</div>
@@ -68,7 +69,7 @@ function HomePageBodyComponent() {
                             REST API Design
                         </li>
                         <li>
-                            JUM
+                            Postman
                         </li>
                     </ul>
                 </div>
