@@ -17,11 +17,6 @@ function WeatherAppProjectComponent() {
                         <p>PORTFOLIO WEBSITE</p>
                     </a>
                 </Link>
-                <Link to="/meditation-project" style={{ textDecoration: 'none' }}>
-                    <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
-                        <p>MEDITATIVE TRACKER</p>
-                    </a>
-                </Link>
                 <Link to="/course-manager-project" style={{ textDecoration: 'none' }}>
                     <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
                         <p>COURSE MANAGER</p>
@@ -38,14 +33,17 @@ function WeatherAppProjectComponent() {
             <div className="w3-padding-large" id="main">
                 <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
                     <h1 class="w3-center" id="me"> Weather App</h1>
-                    <img src="portrait.jpg" alt="boy" class="w3-image" width="992" height="1108" />
+                    <img src="weatherappwireframe.png" alt="boy" class="w3-image" width="992" height="1108" />
                 </header>
                 <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-                    <h2 class="w3-text-light-grey">About Me</h2>
+                    <h2 class="w3-text-light-grey">About Project</h2>
                     <hr style={{ width: "200px" }} class="w3-opacity" />
-                    <p class="w3-text-light-grey"> Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p class="w3-text-light-grey"> I am currently in the process of building a front end application using React. This application
+                        will allow the user to search for a location and the application will display detailed information about the current day's
+                        forecast as awell as information about weather for the rest of the week at that location. My goal for this project is to try to
+                        improve my user interface design skills. I am expirimenting with ChackraUI to style the application. I am also using this project
+                        as an opportunity to expiriment with fetching data from 3rd-party APIs. I conducted a survey of all available free weather APIs and
+                        decided to use OpenWeatherMap's api, which allows for a considerable amount of requests per day and delivers detailed weather information.
                     </p>
                 </div>
 

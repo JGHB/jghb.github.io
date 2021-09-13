@@ -3,6 +3,8 @@ import { Link, link } from "react-router-dom"
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import FadeIn from 'react-fade-in';
 import HomePageBodyComponent from "./HomePageBodyComponent";
+import resume from "../resume.pdf"
+
 
 function HomePageComponent() {
 
@@ -40,7 +42,7 @@ function HomePageComponent() {
                         </a>
                     </ScrollLink>
 
-                    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
+                    <a href={resume} target="blank" class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
                         <p>RESUME</p>
                     </a>
                     <ScrollLink
@@ -59,19 +61,6 @@ function HomePageComponent() {
                     <a href="https://www.github.com/JGHB" class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
                         <p>GITHUB</p>
                     </a> 
-
-                    {/* <ScrollLink
-                        activeClass="active"
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        duration={1000}
-                    >
-                        <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
-                            <p>GITHUB</p>
-                        </a>
-                    </ScrollLink> */}
-
 
                     <ScrollLink
                         activeClass="active"
@@ -101,7 +90,7 @@ function HomePageComponent() {
                             ABOUT
                         </a>
                     </ScrollLink>
-                    <a href="" class="w3-bar-item w3-button" style={{ width: "25% !important" }}>RESUME</a>
+                    <a href={resume}  target="blank" class="w3-bar-item w3-button" style={{ width: "25% !important" }}>RESUME</a>
                     <ScrollLink
                         activeClass="active"
                         to="projects"

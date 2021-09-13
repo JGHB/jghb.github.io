@@ -17,11 +17,6 @@ function PortfolioProjectComponent() {
                         <p>WEATHER APP</p>
                     </a>
                 </Link>
-                <Link to="/meditation-project" style={{ textDecoration: 'none' }}>
-                    <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
-                        <p>MEDITATIVE TRACKER</p>
-                    </a>
-                </Link>
                 <Link to="/course-manager-project" style={{ textDecoration: 'none' }}>
                     <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
                         <p>COURSE MANAGER</p>
@@ -38,15 +33,34 @@ function PortfolioProjectComponent() {
             <div className="w3-padding-large" id="main">
                 <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
                     <h1 class="w3-center" id="me"> Portfolio Website</h1>
-                    <img src="portrait.jpg" alt="boy" class="w3-image" width="992" height="1108" />
+                    <img src="portrait.jpg" alt="boy" class="w3-image" width="496" height="556" />
                 </header>
                 <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-                    <h2 class="w3-text-light-grey">About Me</h2>
+                    <h2 class="w3-text-light-grey">About Project</h2>
                     <hr style={{ width: "200px" }} class="w3-opacity" />
-                    <p class="w3-text-light-grey"> Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p class="w3-text-light-grey"> I built this portfolio with the purpose of showcasing projects I 
+                    have worked on and providing information about myself. It is a static site build with React. I 
+                    used the <a href="https://www.npmjs.com/package/react-scroll" target="blank">react-scroll</a> library to implement smooth 
+                    scrolling, <a href="https://www.npmjs.com/package/react-fade-in" target="blank">react-fade-in</a> to implement a fade in animation, and <a href="https://reactrouter.com/" target="blank">react-router</a> to link between the homepage 
+                    and the pages displaying information about individual projects. The site was styled with HTML and CSS. 
+                    I deployed to GitHub Pages using the <a href="https://www.npmjs.com/package/gh-pages" target="blank"> gh-pages</a> library. Check out the repository for this project <a href="https://github.com/JGHB/jghb.github.io/tree/master" target="blank">here</a>!
                     </p>
+                    <h2 class="w3-text-light-grey">Skills</h2>
+                    <hr style={{ width: "200px" }} />
+                    <ul class="w3-text-light-grey">
+                        <li>
+                            HTML/CSS
+                        </li>
+                        <li>
+                            JavaScript
+                        </li>
+                        <li>
+                            React
+                        </li>
+                        <li>
+                            Github Pages
+                        </li>
+                    </ul>
                 </div>
 
                 <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">

@@ -22,11 +22,6 @@ function CourseManagerProjectComponent() {
                         <p>WEATHER APP</p>
                     </a>
                 </Link>
-                <Link to="/meditation-project" style={{ textDecoration: 'none' }}>
-                    <a class="w3-bar-item w3-button w3-padding-large w3-black sidebar-item">
-                        <p>MEDITATIVE TRACKER</p>
-                    </a>
-                </Link>
             </nav>
             <div class="w3-top w3-center" id="myNavbar">
                 <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
@@ -38,14 +33,20 @@ function CourseManagerProjectComponent() {
             <div className="w3-padding-large" id="main">
                 <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
                     <h1 class="w3-center" id="me"> Course Management</h1>
-                    <img src="portrait.jpg" alt="boy" class="w3-image" width="992" height="1108" />
+                    <img style={{ marginBottom: "10px" }} src="coursemanagerproject1.png" alt="boy" class="w3-image" width="992" height="1108" />
+                    <img src="coursemanagerproject2.png" alt="boy" class="w3-image" width="992" height="1108" />
                 </header>
                 <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-                    <h2 class="w3-text-light-grey">About Me</h2>
+                    <h2 class="w3-text-light-grey">About Project</h2>
                     <hr style={{ width: "200px" }} class="w3-opacity" />
-                    <p class="w3-text-light-grey"> Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p class="w3-text-light-grey"> I built a course manager application that
+                        mimics <a href="https://www.blackboard.com/teaching-learning/learning-management" target="blank">Blackboard</a> or <a href="https://www.instructure.com/" target="blank">Canvas</a>. These
+                        are learning management systems which allow educators to provide students with resources such as
+                        course announcements, study material, assignments, and more. My application implements basic functionality for users to create
+                        courses. These course can be customized to contain modules, lessons, topics, and widgets for different levels of granularity in
+                        learning experiences. The front end of this project was built as a React app, using <a href="https://redux.js.org/" target="blank">Redux</a> for state management. I styled 
+                        using <a href="https://getbootstrap.com/" target="blank">Bootstrap</a> and custom CSS. The back end was built in Node.js using the <a href="https://expressjs.com/" target="blank">Express.js framework</a> This back end leverages <a href="https://mongoosejs.com/" target="blank">Mongoose</a> to
+                        connect to a MongoDB database hosted in the cloud via <a href="https://www.mongodb.com/cloud/atlas" target="blank">MongoDB Atlas</a>.
                     </p>
                 </div>
 

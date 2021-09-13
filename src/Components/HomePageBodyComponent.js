@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import HomePageComponent from "./HomePageComponent"
+import resume from "../resume.pdf"
 
 function HomePageBodyComponent() {
     return (
@@ -13,10 +14,10 @@ function HomePageBodyComponent() {
             <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
                 <h2 class="w3-text-light-grey">About Me</h2>
                 <hr style={{ width: "200px" }} class="w3-opacity" />
-                <p class="w3-text-light-grey"> Hi, I'm James. I'm a student at Northeastern University studying Computer Science and Economics,
-                expecting to graduate in the fall of 2022. I am currently seeking Full Stack and Front End development co-op opportunities for the winter and spring of 2022.
-                I am also available for summer internships in 2022. I am looking for job opportunities that will allow me to pursue my passion for full stack development,
-                work with other developers , and build my skill set. I am currently located in Boston, MA, but I am open to the idea of working elsewhere!
+                <p class="w3-text-light-grey"> Hi, I'm James I'm a student at Northeastern University studying Computer Science and Economics,
+                    expecting to graduate in the fall of 2022. I am currently seeking Full Stack and Front End development co-op opportunities for the winter and spring of 2022.
+                    I am also available for summer internships in 2022. I am looking for job opportunities that will allow me to pursue my passion for full stack development,
+                    work with other developers , and build my skill set. I am currently located in Boston, MA but I am open to the idea of relocating or remote work!
                 </p>
                 <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
                 <p class="w3-wide w3-text-light-grey">Full Stack JavaScript</p>
@@ -75,11 +76,6 @@ function HomePageBodyComponent() {
                 </div>
                 <br />
 
-                <div>
-                    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-                        <i class="fa fa-download"></i> Download Resume
-                    </button>
-                </div>
             </div>
 
 
@@ -92,22 +88,23 @@ function HomePageBodyComponent() {
                 <div class="w3-row-padding" style={{ margin: "0 -16px" }}>
                     <div class="w3-half">
                         <Link to="/portfolio-project" style={{ textDecoration: 'none' }}>
-                            <div href="#about" class="project-item">
+                            <div class="project-item">
                                 <p>PORTFOLIO WEBSITE</p>
                             </div>
                         </Link>
-                        <div href="#" class="project-item">
-                            <p>WEATHER APP</p>
-                        </div>
+                        <Link to="/weather-project" style={{ textDecoration: 'none' }}>
+                            <div class="project-item">
+                                <p>WEATHER APP</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div class="w3-half">
-                        <div href="#" class="project-item">
-                            <p>MEDITATIVE TRACKER</p>
-                        </div>
-                        <div href="#" class="project-item">
-                            <p>COURSE MANAGER</p>
-                        </div>
+                        <Link to="/course-manager-project" style={{ textDecoration: 'none' }}>
+                            <div class="project-item">
+                                <p>COURSE MANAGER</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

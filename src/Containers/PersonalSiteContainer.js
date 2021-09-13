@@ -5,7 +5,6 @@ import HomePageComponent from "../Components/HomePageComponent";
 import PortfolioProjectComponent from "../Components/PortfolioProjectComponent";
 import ScrollToTop from "../Components/ScrollToTop";
 import WeatherAppProjectComponent from "../Components/WeatherAppProjectComponent";
-import MeditativeTrackerProjectComponent from "../Components/MeditativeTrackerProjectComponent";
 import CourseManagerProjectComponent from "../Components/CourseManagerProjectComponent";
 
 function PersonalSiteContainer() {
@@ -25,9 +24,6 @@ function PersonalSiteContainer() {
                     } />
                     <Route path="/weather-project" exact={true} render={() =>
                         <WeatherAppProjectComponent />
-                    } />
-                    <Route path="/meditation-project" exact={true} render={() =>
-                        <MeditativeTrackerProjectComponent/>
                     } />
                     <Route path="/course-manager-project" exact={true} render={() =>
                         <CourseManagerProjectComponent />
