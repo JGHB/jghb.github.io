@@ -39,11 +39,11 @@ function PortfolioProjectComponent() {
                     <h2 class="w3-text-light-grey">About Project</h2>
                     <hr style={{ width: "200px" }} class="w3-opacity" />
                     <p class="w3-text-light-grey"> I built this portfolio with the purpose of showcasing projects I 
-                    have worked on and providing information about myself. It is a static site build with React. I 
-                    used the <a href="https://www.npmjs.com/package/react-scroll" target="blank">react-scroll</a> library to implement smooth 
-                    scrolling, <a href="https://www.npmjs.com/package/react-fade-in" target="blank">react-fade-in</a> to implement a fade in animation, and <a href="https://reactrouter.com/" target="blank">react-router</a> to link between the homepage 
+                    have worked on and providing information about myself. It is a static site built with React. I 
+                    used the <a href="https://www.npmjs.com/package/react-scroll">react-scroll</a> library to implement smooth 
+                    scrolling, <a href="https://www.npmjs.com/package/react-fade-in">react-fade-in</a> to implement a fade in animation, and <a href="https://reactrouter.com/">react-router</a> to link between the homepage 
                     and the pages displaying information about individual projects. The site was styled with HTML and CSS. 
-                    I deployed to GitHub Pages using the <a href="https://www.npmjs.com/package/gh-pages" target="blank"> gh-pages</a> library. Check out the repository for this project <a href="https://github.com/JGHB/jghb.github.io/tree/master" target="blank">here</a>!
+                    I deployed to GitHub Pages using the <a href="https://www.npmjs.com/package/gh-pages"> gh-pages</a> library. Check out the repository for this project <a href="https://github.com/JGHB/jghb.github.io/tree/master">here</a>!
                     </p>
                     <h2 class="w3-text-light-grey">Skills</h2>
                     <hr style={{ width: "200px" }} />

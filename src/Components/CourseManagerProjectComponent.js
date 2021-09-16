@@ -40,14 +40,14 @@ function CourseManagerProjectComponent() {
                     <h2 class="w3-text-light-grey">About Project</h2>
                     <hr style={{ width: "200px" }} class="w3-opacity" />
                     <p class="w3-text-light-grey"> I built a course manager application that
-                        mimics <a href="https://www.blackboard.com/teaching-learning/learning-management" target="blank">Blackboard</a> or <a href="https://www.instructure.com/" target="blank">Canvas</a>. These
+                        mimics <a href="https://www.blackboard.com/teaching-learning/learning-management">Blackboard</a> or <a href="https://www.instructure.com/">Canvas</a>. These
                         are learning management systems which allow educators to provide students with resources such as
                         course announcements, study material, assignments, and more. My application implements basic functionality for users to create
-                        courses. These course can be customized to contain modules, lessons, topics, and widgets for different levels of granularity in
-                        learning experiences. The front end of this project was built as a React app, using <a href="https://redux.js.org/" target="blank">Redux</a> for state management. I styled 
-                        using <a href="https://getbootstrap.com/" target="blank">Bootstrap</a> and custom CSS. The back end was built in Node.js using the <a href="https://expressjs.com/" target="blank">Express.js framework</a> This back end leverages <a href="https://mongoosejs.com/" target="blank">Mongoose</a> to
-                        connect to a MongoDB database hosted in the cloud via <a href="https://www.mongodb.com/cloud/atlas" target="blank">MongoDB Atlas</a>.
-                        Check out the repository for this project <a href="https://github.com/JGHB/jghb.github.io/tree/master" target="blank">here</a>!
+                        courses. These courses can be customized to contain modules, lessons, topics, and widgets for different levels of granularity in
+                        learning experiences. The front end of this project was built as a React app, using <a href="https://redux.js.org/">Redux</a> for state management. I styled 
+                        using <a href="https://getbootstrap.com/" target="blank">Bootstrap</a> and custom CSS. The back end was built in Node.js using the <a href="https://expressjs.com/">Express.js framework</a> This back end leverages <a href="https://mongoosejs.com/">Mongoose</a> to
+                        connect to a MongoDB database hosted in the cloud via <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a>.
+                        Check out the repository for this project <a href="https://github.com/JGHB/jghb.github.io/tree/master">here</a>!
                     </p>
                     <h2 class="w3-text-light-grey">Skills</h2>
                     <hr style={{ width: "200px" }} />
