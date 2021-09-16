@@ -31,11 +31,11 @@ function PortfolioProjectComponent() {
                 </div>
             </div>
             <div className="w3-padding-large" id="main">
-                <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+                <header class="w3-container w3-padding-32 w3-center w3-black">
                     <h1 class="w3-center" id="me"> Portfolio Website</h1>
                     <img src="portrait.jpg" alt="boy" class="w3-image" width="496" height="556" />
                 </header>
-                <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+                <div class="w3-content w3-justify w3-text-grey w3-padding-64">
                     <h2 class="w3-text-light-grey">About Project</h2>
                     <hr style={{ width: "200px" }} class="w3-opacity" />
                     <p class="w3-text-light-grey"> I built this portfolio with the purpose of showcasing projects I 

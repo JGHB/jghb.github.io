@@ -31,12 +31,12 @@ function CourseManagerProjectComponent() {
                 </div>
             </div>
             <div className="w3-padding-large" id="main">
-                <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-                    <h1 class="w3-center" id="me"> Course Management</h1>
+                <header class="w3-container w3-padding-32 w3-center w3-black">
+                    <h1 class="w3-center" id="me"> Course Manager</h1>
                     <img style={{ marginBottom: "10px" }} src="coursemanagerproject1.png" alt="boy" class="w3-image" width="992" height="1108" />
                     <img src="coursemanagerproject2.png" alt="boy" class="w3-image" width="992" height="1108" />
                 </header>
-                <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+                <div class="w3-content w3-justify w3-text-grey w3-padding-64">
                     <h2 class="w3-text-light-grey">About Project</h2>
                     <hr style={{ width: "200px" }} class="w3-opacity" />
                     <p class="w3-text-light-grey"> I built a course manager application that
@@ -47,7 +47,39 @@ function CourseManagerProjectComponent() {
                         learning experiences. The front end of this project was built as a React app, using <a href="https://redux.js.org/" target="blank">Redux</a> for state management. I styled 
                         using <a href="https://getbootstrap.com/" target="blank">Bootstrap</a> and custom CSS. The back end was built in Node.js using the <a href="https://expressjs.com/" target="blank">Express.js framework</a> This back end leverages <a href="https://mongoosejs.com/" target="blank">Mongoose</a> to
                         connect to a MongoDB database hosted in the cloud via <a href="https://www.mongodb.com/cloud/atlas" target="blank">MongoDB Atlas</a>.
+                        Check out the repository for this project <a href="https://github.com/JGHB/jghb.github.io/tree/master" target="blank">here</a>!
                     </p>
+                    <h2 class="w3-text-light-grey">Skills</h2>
+                    <hr style={{ width: "200px" }} />
+                    <ul class="w3-text-light-grey">
+                        <li>
+                            HTML/CSS
+                        </li>
+                        <li>
+                            JavaScript
+                        </li>
+                        <li>
+                            React
+                        </li>
+                        <li>
+                            Redux
+                        </li>
+                        <li>
+                            REST API Design
+                        </li>
+                        <li>
+                            Node.js
+                        </li>
+                        <li>
+                            Express.js
+                        </li>
+                        <li>
+                            Mongoose
+                        </li>
+                        <li>
+                            MongoDB
+                        </li>
+                    </ul>
                 </div>
 
                 <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">

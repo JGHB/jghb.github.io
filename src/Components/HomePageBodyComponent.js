@@ -9,7 +9,7 @@ function HomePageBodyComponent() {
             <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
                 <h1 class="w3-center" id="me"> James Blanchard</h1>
                 <p>Full Stack Developer</p>
-                <img src="portrait.jpg" alt="boy" class="w3-image" width="992" height="1108" />
+                <img src="portrait.jpg" alt="boy" class="w3-image" width="496" height="554" />
             </header>
             <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
                 <h2 class="w3-text-light-grey">About Me</h2>
@@ -22,26 +22,28 @@ function HomePageBodyComponent() {
                 <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
                 <p class="w3-wide w3-text-light-grey">Full Stack JavaScript</p>
                 <div class="w3-white skill-bar">
-                    <div class="w3-yellow skill-bar-inner" style={{ width: "60%" }}>Vanilla JavaScript</div>
-                </div>
-                <div class="w3-white skill-bar">
                     <div class="w3-blue skill-bar-inner" style={{ width: "75%" }}>React</div>
-                </div>
-                <div class="w3-white skill-bar">
-                    <div class="w3-purple skill-bar-inner" style={{ width: "65%" }}>Redux</div>
                 </div>
                 <div class="w3-white skill-bar">
                     <div class="w3-deep-orange skill-bar-inner" style={{ width: "70%" }}>HTML/CSS</div>
                 </div>
                 <div class="w3-white skill-bar">
-                    <div class="w3-red skill-bar-inner" style={{ width: "40%" }}>Angular</div>
+                    <div class="w3-purple skill-bar-inner" style={{ width: "65%" }}>Redux</div>
+                </div>
+                <div class="w3-white skill-bar">
+                    <div class="w3-teal skill-bar-inner" style={{ width: "65%" }}>Express</div>
                 </div>
                 <div class="w3-white skill-bar">
                     <div class="w3-green skill-bar-inner" style={{ width: "60%" }}>NodeJS</div>
                 </div>
                 <div class="w3-white skill-bar">
-                    <div class="w3-teal skill-bar-inner" style={{ width: "65%" }}>Express</div>
+                    <div class="w3-yellow skill-bar-inner" style={{ width: "60%" }}>Vanilla JavaScript</div>
                 </div>
+                <div class="w3-white skill-bar">
+                    <div class="w3-red skill-bar-inner" style={{ width: "40%" }}>Angular</div>
+                </div>
+
+
                 <p class="w3-wide w3-text-light-grey">Other Languages</p>
                 <div class="w3-white skill-bar">
                     <div class="w3-deep-purple skill-bar-inner" style={{ width: "75%" }}>Python</div>
@@ -115,7 +117,8 @@ function HomePageBodyComponent() {
 
                 <div class="w3-section">
                     <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: blanchard.ja@northeastern.edu</p>
-                    <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Linkedin</p>
+                    <a href="https://www.linkedin.com/in/james-blanchard-365b78172/" style={{ textDecoration: "none" }}><a href="https://www.linkedin.com/in/james-blanchard-365b78172/" style={{ textDecoration: "none" }}
+                        class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></a> Linkedin</a>
                 </div><br />
 
             </div>
