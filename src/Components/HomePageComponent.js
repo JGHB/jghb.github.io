@@ -3,7 +3,7 @@ import { Link, link } from "react-router-dom"
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import FadeIn from 'react-fade-in';
 import HomePageBodyComponent from "./HomePageBodyComponent";
-import resume from "../resume.pdf"
+import resume from "../resume2022.pdf"
 
 
 function HomePageComponent() {

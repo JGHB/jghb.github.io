@@ -14,13 +14,17 @@ function HomePageBodyComponent() {
             <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
                 <h2 class="w3-text-light-grey">About Me</h2>
                 <hr style={{ width: "200px" }} class="w3-opacity" />
-                <p class="w3-text-light-grey"> Hi, I'm James I'm a student at Northeastern University studying Computer Science and Economics,
-                    expecting to graduate in the fall of 2022. I am currently seeking Full Stack and Front End development co-op opportunities for the winter and spring of 2022.
-                    I am also available for summer internships in 2022. I am looking for job opportunities that will allow me to pursue my passion for full stack development,
-                    work with other developers , and build my skill set. I am currently located in Boston, MA but I am open to the idea of relocating or remote work!
+                <p class="w3-text-light-grey"> Hi, I'm James. I'm a student at Northeastern University studying Computer
+                                                Science and Economics, expecting to graduate in the fall of 2022. I am
+                                                currently seeking full-time front end and full stack development
+                                                opportunities. I am available starting January 2023 or later. I am
+                                                looking for job opportunities that will allow me to pursue my passion
+                                                for full stack development, work with other developers, and build my
+                                                skill set. Right now I am located in Boston, MA, but I am open to the
+                                                idea of relocating or remote work!
                 </p>
                 <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-                <p class="w3-wide w3-text-light-grey">Full Stack JavaScript</p>
+                <p class="w3-wide w3-text-light-grey">Full Stack TypeScript/JavaScript</p>
                 <div class="w3-white skill-bar">
                     <div class="w3-blue skill-bar-inner" style={{ width: "75%" }}>React</div>
                 </div>
@@ -72,7 +76,7 @@ function HomePageBodyComponent() {
                             REST API Design
                         </li>
                         <li>
-                            Postman
+                            AWS (Cloudfront, Lambda, S3)
                         </li>
                     </ul>
                 </div>
@@ -116,7 +120,7 @@ function HomePageBodyComponent() {
                 <hr style={{ width: "200px" }} class="w3-opacity" />
 
                 <div class="w3-section">
-                    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: blanchard.ja@northeastern.edu</p>
+                    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: Jamesghblanchard@gmail.com</p>
                     <a href="https://www.linkedin.com/in/james-blanchard-365b78172/" style={{ textDecoration: "none" }}><a href="https://www.linkedin.com/in/james-blanchard-365b78172/" style={{ textDecoration: "none" }}
                         class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></a> Linkedin</a>
                 </div><br />
